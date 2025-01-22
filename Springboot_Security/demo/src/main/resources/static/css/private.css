@@ -1,0 +1,65 @@
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  /* Header styling */
+  header {
+    background-color: #ff5722;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Navigation menu */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  nav a {
+    color: #ff5722;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 2px solid #ff5722;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Change link color on hover */
+  nav a:hover {
+    background-color: #ff5722;
+    color: white;
+  }
+  
+  /* Styling for the button */
+  button {
+    display: block;
+    margin: 30px auto;
+    padding: 15px 30px;
+    font-size: 16px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: #e64a19;
+  }
+  

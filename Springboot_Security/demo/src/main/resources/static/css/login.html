@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng Nhập</title>
+    <link rel="stylesheet" href="/css/login.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Đăng Nhập</h1>
+    </header>
+
+    <main>
+      <section>
+        <form action="/login" method="post">
+          <div>
+            <label for="username">Tên đăng nhập:</label>
+            <input type="text" id="username" name="username" required />
+          </div>
+          <div>
+            <label for="password">Mật khẩu:</label>
+            <input type="password" id="password" name="password" required />
+          </div>
+          <div>
+            <button type="submit">Đăng Nhập</button>
+          </div>
+          <div>
+            <p id="error-message" style="color: red;"></p>
+          </div>
+        </form>
+
+        <div>
+          <p>Chưa có tài khoản? <a href="/register">Đăng ký ngay</a></p>
+        </div>
+      </section>
+
+      <div>
+        <p><a href="/public">Truy cập trang công cộng</a></p>
+      </div>
+    </main>
+
+    <script>
+      // Nếu có lỗi đăng nhập, hiển thị thông báo lỗi
+      const errorMessage = new URLSearchParams(window.location.search).get('error');
+      if (errorMessage) {
+        document.getElementById('error-message').innerText = "Tên đăng nhập hoặc mật khẩu không đúng!";
+      }
+    </script>
+  </body>
+</html>
