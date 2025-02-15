@@ -5,11 +5,11 @@ Trước hết, nếu bạn đang chạy một ứng dụng (web) điển hình,
 
 User : “Tôi là user. username của tôi là: customer”
 
-Ứng dụng web của bạn : “Chắc chắn rồi, thế còn password thì sao, thưa ngài Tổng thống?”
+Ứng dụng web của bạn : "password của bạn là gì ?"
 
 User : “Pass của tôi là: th3don4ld”.
 
-Ứng dụng web của bạn : “Đúng. Chào mừng, thưa ngài!”
+Ứng dụng web của bạn : “Đăng nhập thành công. Chào mừng bạn!”
 
 2. Authorization (Phân quyền)
 Trong các ứng dụng đơn giản hơn, chỉ cần authenticate là đủ: Ngay sau khi người dùng authenticate, họ có thể truy cập từng phần của ứng dụng.
@@ -20,6 +20,6 @@ Cả hai loại user đều cần đăng nhập, nhưng thực tế authenticati
 
 User : “Hãy để tôi chơi với quả bóng hạt nhân đó….”
 
-Ứng dụng web của bạn : "Đợi một giây, tôi cần kiểm tra lại permission của ngài trước… Dạ thưa Chủ tịch, ngài có đủ điều kiện. Hãy cứ tận hưởng”
+Ứng dụng web của bạn : "Đợi một giây, tôi cần kiểm tra lại permission của bạn trước… , bạn có đủ điều kiện. Hãy cứ tận hưởng”
 
-User : “Lại cái nút đỏ đó là gì vậy… ??”
+
