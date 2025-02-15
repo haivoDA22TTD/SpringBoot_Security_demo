@@ -3,7 +3,7 @@
 1. Authentication (xác thực)
 Trước hết, nếu bạn đang chạy một ứng dụng (web) điển hình, bạn cần user của mình authenticate. Điều đó có nghĩa là ứng dụng của bạn cần xác minh xem user có phải là người mà anh ta thừa nhận đúng là anh ta hay không, thường được thực hiện bằng kiểm tra username và password.
 
-User : “Tôi là tổng thống Hoa Kỳ. username của tôi là: potus!”
+User : “Tôi là user. username của tôi là: customer”
 
 Ứng dụng web của bạn : “Chắc chắn rồi, thế còn password thì sao, thưa ngài Tổng thống?”
 
