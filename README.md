@@ -16,7 +16,7 @@ Trong các ứng dụng đơn giản hơn, chỉ cần authenticate là đủ: N
 
 Nhưng hầu hết các ứng dụng đều có khái niệm về quyền (hoặc vai trò). Hãy tưởng tượng: khách hàng có quyền truy cập vào giao diện công khai của webshop của bạn và quản trị viên có quyền truy cập vào khu vực quản trị riêng biệt.
 
-Cả hai loại user đều cần đăng nhập, nhưng thực tế authentication đơn thuần không nói lên gì về việc họ được phép làm gì trong hệ thống của bạn. Do đó, bạn cũng cần phải kiểm tra các quyền của user đã được authenticate, tức là bạn cần cấp quyền cho người dùng đó.
+Cả hai loại user đều cần đăng nhập, nhưng thực tế authentication đơn thuần không nói lên gì về việc họ được phép làm gì trong hệ thống của bạn. Do đó, bạn cũng cần phải kiểm tra các quyền của user đã được authenticate, tức là  cần cấp quyền cho người dùng đó.
 
 User : “Hãy để tôi chơi với quả bóng hạt nhân đó….”
 
